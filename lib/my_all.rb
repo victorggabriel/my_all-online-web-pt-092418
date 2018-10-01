@@ -1,5 +1,10 @@
 require 'pry'
 
 def my_all?(collection)
-binding.pry 
+  i = 0 
+  
+  while i < collection.length 
+  i += 1 
+  binding.pry 
+  end
 end
